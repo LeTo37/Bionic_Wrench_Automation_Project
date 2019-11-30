@@ -18,8 +18,8 @@ As mentioned above, the first step of this project was just to observe. Professo
 So begun the iterative process of design. The bulk of work done in this project was in mechanical design, each week brought about a new iteration of the current design as well as thoughts on a new approach. That journey can be mapped by following the different "STL" files of the various designs that were cycled through before arriving at the final stop. 
 
 It became important to create journey maps of best case scenarios, so as to assess the approach and figure out what could be done in time as well as what could be done better.
-![Wrench_Journey_Map](media/Wrench_Journey_Map.pdf)
-<!-- <p align="center"><img src="media/Wrench_Journey_Map.pdf" width="500" /></p> -->
+<!-- ![Wrench_Journey_Map](media/Wrench_Journey_Map.pdf) -->
+<p align="center"><img src="media/Wrench_Journey_Map.png" width="500" /></p>
 
 A big change in the approach came about when it was decided that using gravity to place the jaws could simplify the process by eliminating the need to actuate within the small space in the middle of the wrench. This came about as a serendipitous thought during a brainstorming session with Professor Brown. 
 As such, the final approach was to use gravity to place the jaws in the wrench, with the assistance of an electromagnet and to rotate the wrench around the jig and repeat - so as to place all 6 jaws. This will be further detailed below.
