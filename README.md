@@ -1,5 +1,5 @@
 # Bionic_Wrench_Automation_Project
-This repository contains the details of my final project for my Masters in Robotics. This project entailed the automation of a part of the production process for the Bionic Wrench (Loggerhead Tools) and was supervised by Professor. Dan Brown.
+This repository contains the details of my final project for my Masters in Robotics at Northwestern Univeristy. This project entailed the automation of a part of the production process for the Bionic Wrench (Loggerhead Tools) and was supervised by Professor Dan Brown.
 
 ## Overview
 The initial goal of this project was to observe the manufacturing process of the Loggerhead Tools Bionic Wrench and identify a bottleneck in the process that can be addressed by automation. With that goal set out, there were no set requirements on what should be automated and how it should be automated. This allowed for freedom and trust in following the design process to achieve the optimal solution to this problem.
@@ -13,7 +13,15 @@ As will be detailed, the mechanical design for this project was primarily done u
 
 
 ## Approach
-	
+As mentioned above, the first step of this project was just to observe. Professor Brown gave me videos of the current production process for the wrench and I began to make note of each task being undertaken, how long each task was taking and how that task affects the other tasks. It was clear that the biggest bottleneck in the process was the placing of the wrench jaws in the wrench. This task represented the biggest gain from automation but also perhaps one of the most challenging steps to automate given the precise needs for placing the jaw as well as the small amount of space in the middle of the wrench in which a mechanism can actuate.
+
+So begun the iterative process of design. The bulk of work done in this project was in mechanical design, each week brought about a new iteration of the current design as well as thoughts on a new approach. That journey can be mapped by following the different "STL" files of the various designs that were cycled through before arriving at the final stop. 
+
+It became important to create journey maps of best case scenarios, so as to assess the approach and figure out what could be done in time as well as what could be done better.
+<p align="center"><img src="media/Wrench_Journey_Map.pdf" height ='300' width="250" /></p><br> <br>
+
+A big change in the approach came about when it was decided that using gravity to place the jaws could simplify the process by eliminating the need to actuate within the small space in the middle of the wrench. This came about as a serendipitous thought during a brainstorming session with Professor Brown. 
+As such, the final approach was to use gravity to place the jaws in the wrench, with the assistance of an electromagnet and to rotate the wrench around the jig and repeat - so as to place all 6 jaws. This will be further detailed below.
 
 ## Mechanical Design
 
