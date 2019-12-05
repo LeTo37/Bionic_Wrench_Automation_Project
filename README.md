@@ -35,7 +35,7 @@ The two initial goals of the design, deemed to be the most important in order to
 #### Outer Jig - Wrench Holder
 It became clear that a way in which 6 jaws could be placed in a repetitive manner would be to hold the wrench in place around the center, wherein the jaw actuation would take place, and then rotate the wrench around this actuator. This led to the following design. The indentations around the circle are in there to allow for a jaw to be placed in any of those six spots. The raised bumps on either side of the circle are the to help fix the wrench in place.
 <!-- <p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Design_Iterations/Iterations/wrench_outer_jig_II.stl"></script> </p> -->
-
+[![wrench_outer_jig_II](media/wrench_outer_jig_II.png)](Design_Iterations/Iterations/wrench_outer_jig_II.stl)
 
 This design was clearly not very good as it was not dimensioned well to hold the wrench at all. This design evolved into something that was built off of the wrench's actual dimensions. It included a bit more support for the bottom of the wrench.
 <!-- <p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Design_Iterations/Iterations/wrench_outer_jig_III.stl"></script> </p> -->
@@ -43,21 +43,21 @@ This design was clearly not very good as it was not dimensioned well to hold the
 
 This design finally became dimensioned to precisely hold the wrench open to a certain angle - so as to allow for the jaws to be placed within the wrench. It further includes some protection against th wrench falling out of the jig since the final design requires for the jig and wrench combination to be held at a 90 degree angle.
 <!-- <p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Design_Iterations/Current/jig.stl"></script> </p> -->
-[![wrench_outer_jig_III](media/jig.png)](Design_Iterations/Current/jig.stl)
+[![jig](media/jig.png)](Design_Iterations/Current/jig.stl)
 
 #### Inner Jig - Jaw Placement
 The jaw placement designs tell a story of the two key changes of approach that completely revolutionised how the whole project would look.
 
 The first design for the inner jig was based off of the idea that the jaws would be fed into the system from above in a uniform manner. This meant that the jaws would have to be shifted in a translational manner between left and right so as to place the jaw in the wrench. 
 <!-- <p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Design_Iterations/Iterations/Feed_from_top.stl"></script> </p> -->
-[![wrench_outer_jig_III](media/Feed_from_top.png)](Design_Iterations/Iterations/Feed_from_top.stl)
+[![Feed_from_top](media/Feed_from_top.png)](Design_Iterations/Iterations/Feed_from_top.stl)
 As can be seen in the above design, the jaw was supposed to be caught by the "jaw placer" in the middle of the jig. This would then be actuated from below in a translational manner so as to place the jaw. 
 
 The problem encountered with this design was that the reliability of the jaw falling in the correct orientation was low and the lack of physical space in which to actuate the "jaw placer". This led to the next idea which was to feed the jaws into the system from the bottom.
 
 This design was based off of the same principle of using a "jaw placer" in the center of the jig to place the jaws. But this time the jaws beign fed into the jig from the bottom would push against the ramp in the housing in the middle of the jig which would in turn force the jaw out of the opening and onto the "jaw placer". Subsequently, the "jaw placer" would then be actuated from below in a translational manner so as to place the jaw.
 <!-- <p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Design_Iterations/Iterations/Feed_from_bottom.stl"></script> </p> -->
-[![wrench_outer_jig_III](media/Feed_from_bottom.png)](Design_Iterations/Iterations/Feed_from_bottom.stl)
+[![Feed_from_bottom](media/Feed_from_bottom.png)](Design_Iterations/Iterations/Feed_from_bottom.stl)
 This again saw similar problems as the "feed from the top" design as the jaw still had to fall into place and the room for actuation was not improved. 
 
 while playing around with the 3D printed models of the design, it was noticed that holding the center jig at a 90 degree angle to the wrench allowed for the jaws in the system to simply fall into place! This revelation led to the final approach used in the project.
