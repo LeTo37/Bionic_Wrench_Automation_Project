@@ -39,7 +39,7 @@ It became clear that a way in which 6 jaws could be placed in a repetitive manne
 
 This design was clearly not very good as it was not dimensioned well to hold the wrench at all. This design evolved into something that was built off of the wrench's actual dimensions. It included a bit more support for the bottom of the wrench.
 <!-- <p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Design_Iterations/Iterations/wrench_outer_jig_III.stl"></script> </p> -->
-[![wrench_outer_jig_III](media/wrench_outer_jig_III.png]){:height="36px" width="36px"}](Design_Iterations/Iterations/wrench_outer_jig_III.stl)
+[![wrench_outer_jig_III](media/wrench_outer_jig_III.png]){:height=36 width=36}](Design_Iterations/Iterations/wrench_outer_jig_III.stl)
 
 This design finally became dimensioned to precisely hold the wrench open to a certain angle - so as to allow for the jaws to be placed within the wrench. It further includes some protection against th wrench falling out of the jig since the final design requires for the jig and wrench combination to be held at a 90 degree angle.
 <!-- <p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Design_Iterations/Current/jig.stl"></script> </p> -->
