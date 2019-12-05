@@ -35,7 +35,7 @@ The two initial goals of the design, deemed to be the most important in order to
 #### Outer Jig - Wrench Holder
 It became clear that a way in which 6 jaws could be placed in a repetitive manner would be to hold the wrench in place around the center, wherein the jaw actuation would take place, and then rotate the wrench around this actuator. This led to the following design. The indentations around the circle are in there to allow for a jaw to be placed in any of those six spots. The raised bumps on either side of the circle are the to help fix the wrench in place.
 <!-- <p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Design_Iterations/Iterations/wrench_outer_jig_II.stl"></script> </p> -->
-[![wrench_outer_jig_II](media/wrench_outer_jig_II.png =150x150)](Design_Iterations/Iterations/wrench_outer_jig_II.stl)
+[![wrench_outer_jig_II](<img src="media/Wrench_Journey_Map.png" width="300" />)](Design_Iterations/Iterations/wrench_outer_jig_II.stl)
 
 This design was clearly not very good as it was not dimensioned well to hold the wrench at all. This design evolved into something that was built off of the wrench's actual dimensions. It included a bit more support for the bottom of the wrench.
 <!-- <p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Design_Iterations/Iterations/wrench_outer_jig_III.stl"></script> </p> -->
