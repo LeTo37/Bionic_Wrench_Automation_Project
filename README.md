@@ -27,8 +27,8 @@ As such, the final approach was to use gravity to place the jaws in the wrench, 
 ## Mechanical Design
 
 The mechanical design involved in this project was by far the most important, most complex and thus the most time consuming aspect of the project. As is the nature of design, it involved a lot of iterations as well as a few changes in approach that ultimately led to the final design. This final set up is shown below and will be further discussed later.
-<!-- <p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Mechanical_Design/Current/Final.stl"></script> </p> -->
-[![Final](media/Final.png)](Mechanical_Design/Current/Final.stl)
+<!-- <p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Mechanical_Design/Current/3D_prints/Final.stl"></script> </p> -->
+[![Final](media/Final.png)](Mechanical_Design/Current/3D_prints/Final.stl)
 
 ### Initial Designs
 The two initial goals of the design, deemed to be the most important in order to achieve the end goal, were to hold the wrench in place and then subsequently to be able to place a jaw in the wrench in a manner that could be repeated 6 times - for each jaw. This led to the first iterations of the design worth mentioning.  
@@ -43,8 +43,8 @@ This design was clearly not very good as it was not dimensioned well to hold the
 [![wrench_outer_jig_III](media/wrench_outer_jig_III.png])](Mechanical_Design/Iterations/wrench_outer_jig_III.stl)
 
 This design finally became dimensioned to precisely hold the wrench open to a certain angle - so as to allow for the jaws to be placed within the wrench. It further includes some protection against th wrench falling out of the jig since the final design requires for the jig and wrench combination to be held at a 90 degree angle.
-<!-- <p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Mechanical_Design/Current/jig.stl"></script> </p> -->
-[![jig](media/jig.png)](Mechanical_Design/Current/jig.stl)
+<!-- <p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Mechanical_Design/Current/3D_prints/jig.stl"></script> </p> -->
+[![jig](media/jig.png)](Mechanical_Design/Current/3D_prints/jig.stl)
 
 #### Inner Jig - Jaw Placement
 The jaw placement designs tell a story of the two key changes of approach that completely revolutionised how the whole project would look.
