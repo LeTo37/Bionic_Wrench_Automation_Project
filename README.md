@@ -27,7 +27,8 @@ As such, the final approach was to use gravity to place the jaws in the wrench, 
 ## Mechanical Design
 
 The mechanical design involved in this project was by far the most important, most complex and thus the most time consuming aspect of the project. As is the nature of design, it involved a lot of iterations as well as a few changes in approach that ultimately led to the final design. This final set up is shown below and will be further discussed later.
-<p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Mechanical_Design/Current/Final.stl"></script> </p>
+<!-- <p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Mechanical_Design/Current/Final.stl"></script> </p> -->
+[![Final](media/Final.png)](Mechanical_Design/Current/Final.stl)
 
 ### Initial Designs
 The two initial goals of the design, deemed to be the most important in order to achieve the end goal, were to hold the wrench in place and then subsequently to be able to place a jaw in the wrench in a manner that could be repeated 6 times - for each jaw. This led to the first iterations of the design worth mentioning.  

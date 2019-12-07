@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-int main() {    
+int main() {
     __builtin_disable_interrupts();
     // set the CP0 CONFIG register to indicate that kseg0 is cacheable (0x3)
     __builtin_mtc0(_CP0_CONFIG, _CP0_CONFIG_SELECT, 0xa4210583);
@@ -17,25 +17,35 @@ int main() {
     DDPCONbits.JTAGEN = 0;
     //Make B4 an input (USER)
     TRISBbits.TRISB4 = 1;
+    //Make A4 an output (ELECMAGNET)
+    TRISAbits.TRISA4 = 0;
     //Stepper Motor Setup
     Stepper_Setup();
     __builtin_enable_interrupts();
-    
-     _CP0_SET_COUNT(0);
+
+        LATAbits.LATA4 == 0;    
+    _CP0_SET_COUNT(0);
+
+    //     Step();
 
     while (1) {
-//        // use _CP0_SET_COUNT(0) and _CP0_GET_COUNT() to test the PIC timing
-//        // remember the core timer runs at half the sysclk
-//        //pushbutton pressed - do nothing
-//        while (PORTBbits.RB4 == 0) {
-//            LATAbits.LATA4 = 0; // Keep light off
-//        }
-//        //1kHz LED toggle
-//        if (_CP0_GET_COUNT() > 24000) {
-//            LATAbits.LATA4 = !LATAbits.LATA4;
-//            _CP0_SET_COUNT(0);
-//        }
+
+        while (PORTBbits.RB4 == 0) {
+            Step();
+        }
+
+        //        // use _CP0_SET_COUNT(0) and _CP0_GET_COUNT() to test the PIC timing
+        //        // remember the core timer runs at half the sysclk
+        //        //pushbutton pressed - do nothing
+        //        while (PORTBbits.RB4 == 0) {
+        //            LATAbits.LATA4 = 0; // Keep light off
+        //        }
+        //        //1kHz LED toggle
+        //        if (_CP0_GET_COUNT() > 24000) {
+        ////            LATAbits.LATA4 = !LATAbits.LATA4;
+        //            _CP0_SET_COUNT(0);
+        //        }
     }
-    
+
 }
 
