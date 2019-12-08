@@ -61,7 +61,7 @@ With the rig and inner jig in place, in order to rotate the outer jig holding th
 
 The driven gear was 3D printed so as to allow for it to be connected to the stepper motor using a sprocket with a set screw. This design is shown below, including the sprocket used<span>&#58;</span>
 <!-- <p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Mechanical_Design/Current/3D_Prints/gear_driver.stl"></script> </p> -->
-[![Feed_from_bottom](../media/Rig.png)](Current/3D_Prints/gear_driver.stl)
+[![Feed_from_bottom](../media/gear_driver.png)](Current/3D_Prints/gear_driver.stl)
 
 The driven gear was laser cut and designed with a hole in the middle of it, in the shape of the outer jig. The outer jig was then joined to the gear making it one part capable of rotating around the inner jig while holding onto the wrench. The driven gear with the outer jig holding a wrench can be seen below<span>&#58;</span><!-- <p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Mechanical_Design/Current/Laser_Cut_Pieces/jig_gear.stl"></script> </p> -->
 [![Feed_from_bottom](../media/jig_gear.png)](Current/Laser_Cut_Pieces/jig_gear.stl)
