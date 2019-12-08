@@ -1,6 +1,6 @@
 ## Mechanical Design
-<!-- <p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Mechanical_Design/Current/3D_prints/Final.stl"></script> </p> -->
-[![Final](../media/Final.png)](Current/3D_prints/Final.stl)
+<!-- <p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Mechanical_Design/Current/3D_Prints/Final.stl"></script> </p> -->
+[![Final](../media/Final.png)](Current/3D_Prints/Final.stl)
 
 As the most time consuming, complex and important aspect of this project, the mechanical design involves a lot of iterations. All iterations were useful in getting to the final design. However, the designs shown in this README are the ones in the `Iterations` and `Current` directories. These designs represent the designs finally used and the ones that came out of big changes to the approach.
 
@@ -17,8 +17,8 @@ This design was clearly not very good as it was not dimensioned well to hold the
 [![wrench_outer_jig_III](../media/wrench_outer_jig_III.png)](Iterations/wrench_outer_jig_III.stl)
 
 This design finally became dimensioned to precisely hold the wrench open to a certain angle - so as to allow for the jaws to be placed within the wrench. It further includes some protection against th wrench falling out of the jig since the final design requires for the jig and wrench combination to be held at a 90 degree angle.
-<!-- <p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Mechanical_Design/Current/3D_prints/jig.stl"></script> </p> -->
-[![jig](../media/jig.png)](Current/3D_prints/jig.stl)
+<!-- <p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Mechanical_Design/Current/3D_Prints/jig.stl"></script> </p> -->
+[![jig](../media/jig.png)](Current/3D_Prints/jig.stl)
 
 #### Inner Jig - Jaw Placement
 The jaw placement designs tell a story of the two key changes of approach that completely revolutionised how the whole project would look.
