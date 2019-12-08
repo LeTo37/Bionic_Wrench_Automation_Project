@@ -1,6 +1,6 @@
 ## Mechanical Design
 <!-- <p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Mechanical_Design/Current/3D_prints/Final.stl"></script> </p> -->
-[![Final](media/Final.png)](Current/3D_prints/Final.stl)
+[![Final](../media/Final.png)](Current/3D_prints/Final.stl)
 
 As the most time consuming, complex and important aspect of this project, the mechanical design involves a lot of iterations. All iterations were useful in getting to the final design. However, the designs shown in this README are the ones in the `Iterations` and `Current` directories. These designs represent the designs finally used and the ones that came out of big changes to the approach.
 
