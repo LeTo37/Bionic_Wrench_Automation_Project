@@ -22,7 +22,7 @@ It became important to create journey maps of best case scenarios, so as to asse
 <p align="center"><img src="media/Wrench_Journey_Map.png" width="700" /></p>
 
 A big change in the approach came about when it was decided that using gravity to place the jaws could simplify the process by eliminating the need to actuate within the small space in the middle of the wrench. This came about as a serendipitous thought during a brainstorming session with Professor Brown. 
-As such, the final approach was to use gravity to place the jaws in the wrench, with the assistance of an electromagnet and to rotate the wrench around the jig and repeat - so as to place all 6 jaws. This will be further detailed below.
+As such, the final approach was to use gravity to place the jaws in the wrench, with the assistance of an electromagnet and to rotate the wrench around the jig and repeat - so as to place all 6 jaws. This is further detailed in the READMEs of each directory.
 
 ## Mechanical Design
 The mechanical design involved in this project was by far the most important, most complex and thus the most time consuming aspect of the project. As is the nature of design, it involved a lot of iterations as well as a few changes in approach that ultimately led to the final design. This final set up is shown below.
@@ -36,5 +36,7 @@ The design process is discussed further in the [Mechanical Design Directory](/Me
 [This](/Electronics) directory contains the [EAGLE CAD](https://www.autodesk.com/products/eagle/overview) files used to develop the schematics of the circuitry used in this project. It further contains a README explaining the circuitry used.
 
 ## Code
+
+The C code used to program the microcontroller is in [this](/Code). directory.
 
 ## Future Work
