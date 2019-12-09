@@ -39,4 +39,4 @@ The design process is discussed further in the [Mechanical Design Directory](/Me
 
 The C code used to program the microcontroller is in [this](/Code). directory.
 
-## Future Work
+<!-- ## Future Work -->
