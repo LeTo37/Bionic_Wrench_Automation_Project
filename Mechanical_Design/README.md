@@ -43,8 +43,8 @@ While playing around with the 3D printed models of the design, it was noticed th
 
 ### Inner Jig
 The final design idea is to have the jaws being fed laterally into the inner jig. Once in the inner jig, these jaws can then fall into the wrench if the outerjig holds the wrench in the correct spot. Below is the design for the inner jig, along with a feeding tube used to get the jaws into the jig<span>&#58;</span>
-<!-- <p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Mechanical_Design/Current/3D_Prints/Assembly_feeder&inner.stl"></script> </p> -->
-[![Feed_from_bottom](../media/Assembly_feeder&inner.png)](Current/3D_Prints/Assembly_feeder&inner.stl)
+<!-- <p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Mechanical_Design/Current/3D_Prints/feeder_plus_inner.stl"></script> </p> -->
+[![Feed_from_bottom](../media/Assembly_feeder&inner.png)](Current/3D_Prints/feeder_plus_inner.stl)
 
 With this design, some key objectives in order to make it useful are to propel the jaws along the feeding tube into the inner jig, control how and when the jaws are dropped into the wrench and to keep the jaws in the correct orientation so that they can fall into place. A simple solution to solve all three of these objectives is to use an electromagnet placed at the head of the inner jig as well as a steel bar placed above the head of the inner jig that extends to the feeding tube. This bar will act as a magnet when the electromagnet is on and as such will keep the jaws oriented correctly. The recess for this steel bar can be seen in the image above. The placement of the electromagnet can be seen in the full assemnbly of the final design. 
 

@@ -33,7 +33,7 @@ The design process is discussed further in the [Mechanical Design Directory](/Me
 
 ## Electronics
 
-[This](/Electronics) directory contains the <a href="https://www.autodesk.com/products/eagle/overview" target="_blank">EAGLE CAD</a>> files used to develop the schematics of the circuitry used in this project. It further contains a README explaining the circuitry used.
+[This](/Electronics) directory contains the <a href="https://www.autodesk.com/products/eagle/overview" target="_blank">EAGLE CAD</a> files used to develop the schematics of the circuitry used in this project. It further contains a README explaining the circuitry used.
 
 ## Code
 
