@@ -6,7 +6,7 @@ This directory holds the EAGLE `.sch` files used to develop the schematics of th
 
 The brains of the project allowing for the electromagnet to be triggered at the right time and controlling the rotation and timing of the stepper motor is a [PIC32MX250F128B](../Docs/PIC32MX1XX2XX-28-36-44-PIN-DS60001168K.pdf) microcontoller. 
 
-The breakout schematic of this microcontroller, necessary for programming as well as interaction at a 3.3V logic level, is shown below. It includes a 3.3V voltage regulator, a [Pololu](https://www.pololu.com/) breakout board of a micro-usb connector as well as a MPLAB Snap for programming.
+The breakout schematic of this microcontroller, necessary for programming as well as interaction at a 3.3V logic level, is shown below. It includes a 3.3V voltage regulator, a <a href="https://www.pololu.com/" target="_blank">Pololu</a> breakout board of a micro-usb connector as well as a MPLAB Snap for programming.
 
 ![PIC32_BREAKOUT](PIC32_BREAKOUT.png)
 

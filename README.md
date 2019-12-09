@@ -9,7 +9,7 @@ After journey mapping the manufacturing process, giving time values for each tas
 The result is shown below:
 <br> <br> <div align="center"> <iframe width="630" height="385" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div> <br>
 
-As will be detailed, the mechanical design for this project was primarily done using <a href=https://www.onshape.com/ target="_blank">OnShape</a> CAD software, the construction of the rig was done using various prototyping methods such as 3D printing and Laser Cutting, a PIC32MX795F512H microcontroller was used to control the system and the relevant peripheral circuitry and coding of the microcontroller was done in C. 
+As will be detailed, the mechanical design for this project was primarily done using <a href="https://www.onshape.com/" target="_blank">OnShape</a> CAD software, the construction of the rig was done using various prototyping methods such as 3D printing and Laser Cutting, a PIC32MX795F512H microcontroller was used to control the system and the relevant peripheral circuitry and coding of the microcontroller was done in C. 
 
 
 ## Approach
@@ -33,7 +33,7 @@ The design process is discussed further in the [Mechanical Design Directory](/Me
 
 ## Electronics
 
-[This](/Electronics) directory contains the [EAGLE CAD](https://www.autodesk.com/products/eagle/overview) files used to develop the schematics of the circuitry used in this project. It further contains a README explaining the circuitry used.
+[This](/Electronics) directory contains the <a href="https://www.autodesk.com/products/eagle/overview" target="_blank">EAGLE CAD</a>> files used to develop the schematics of the circuitry used in this project. It further contains a README explaining the circuitry used.
 
 ## Code
 
