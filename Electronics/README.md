@@ -18,6 +18,8 @@ The circuitry that is used to drive the [electromagnet](../Docs/Electromagnets_M
 
 ## Stepper Motor Driver
 
-The circuitry used to control the stepper motor is the Adafruit [TB6612](adafruit-tb6612-h-bridge-dc-stepper-motor-driver-breakout.pdf) chip. This chip is a dual H-bridge along with some protective circuitry. This chip allows the stepper to be simply controlled by 4 GPIO pins - this is done by setting the relevant GPIO pins high and low in the right order, according to [this documentation](../Docs/steps.png). This chip also allows for 3.3V logic to be used from the microcontroller while supplying the motor with the 12V necesarry to use it. 
+The circuitry used to control the stepper motor is the Pololu [MD20b](https://www.pololu.com/product/2133/resources) chip. This chip is a dual H-bridge along with some protective circuitry. This chip allows the stepper to be simply controlled by 3 GPIO pins to control the step resolution (M0,M1,M2) and one pin set to output a PWM signal (STEP). This chip also allows for 3.3V logic to be used from the microcontroller while supplying the motor with the 12V necesarry to use it. 
+
+As can be seen in the [code](../Code) directory, pins M0, M1 and M2 are used to set the resolution at which the motor is controlled. Setting M0 and M1 high and M2 low sets the driver to control the motor in 1/8 step mode, meaning the 200-step-per-revolution motor now has 1600 microsteps per revolution. A PWM signal is sent to the STEP pin to drive the motor.
 
 ![STEPPER_MOTOR_DRIVER](STEPPER_MOTOR_DRIVER.png)

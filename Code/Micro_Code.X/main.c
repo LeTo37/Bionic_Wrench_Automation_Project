@@ -1,5 +1,6 @@
 #include "Setup.h"      //PIC
 #include "Stepper.h"    //STEPPER MOTOR
+#include"PWM.h"         //PWM
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -19,32 +20,43 @@ int main() {
     TRISBbits.TRISB4 = 1;
     //Make A4 an output (ELECMAGNET)
     TRISAbits.TRISA4 = 0;
-    //Stepper Motor Setup
+    //Stepper Motor Setup (and PWM)
     Stepper_Setup();
+    PWM_init();
     __builtin_enable_interrupts();
 
-        LATAbits.LATA4 == 0;    
+    LATAbits.LATA4 = 1;
     _CP0_SET_COUNT(0);
 
-    //     Step();
-
+    //    Step_60();
+    int trig = 0;
+    int prev = 0;
     while (1) {
+        prev = PORTBbits.RB4;
+        _CP0_SET_COUNT(0);
+        while (_CP0_GET_COUNT() < 24000) {
 
-        while (PORTBbits.RB4 == 0) {
-            Step();
         }
 
-        //        // use _CP0_SET_COUNT(0) and _CP0_GET_COUNT() to test the PIC timing
-        //        // remember the core timer runs at half the sysclk
-        //        //pushbutton pressed - do nothing
-        //        while (PORTBbits.RB4 == 0) {
-        //            LATAbits.LATA4 = 0; // Keep light off
-        //        }
-        //        //1kHz LED toggle
-        //        if (_CP0_GET_COUNT() > 24000) {
-        ////            LATAbits.LATA4 = !LATAbits.LATA4;
-        //            _CP0_SET_COUNT(0);
-        //        }
+        if (prev == 1) {
+            if (PORTBbits.RB4 == 0) {
+                trig++;
+            }
+        }
+        if (trig == 1) {
+            LATAbits.LATA4 = 0;
+        } else if (trig == 2) {
+            LATAbits.LATA4 = 1;
+        } else if (trig == 3) {
+            Step_60();
+            trig = 0;
+        }
+
+
+
+
+
+
     }
 
 }

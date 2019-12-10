@@ -16,6 +16,8 @@
       <itemPath>../../../../3rd Term/Advanced_Mechatronics/Levi_Todes_ME433/HW7/HW7.X/Setup.h</itemPath>
       <itemPath>Stepper.h</itemPath>
       <itemPath>Stepper.c</itemPath>
+      <itemPath>PWM.c</itemPath>
+      <itemPath>PWM.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"

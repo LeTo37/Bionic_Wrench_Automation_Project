@@ -1,98 +1,27 @@
 #include "Stepper.h"
+#include"PWM.h"
 
-void Stepper_Setup(void){
-    //Make B8 and B9 an output
-    TRISBbits.TRISB8 = 0; //Black
-    TRISBbits.TRISB9 = 0; //Green
-    //Make B14 and B15 an output
-    TRISBbits.TRISB14 = 0; //Red
-    TRISBbits.TRISB15 = 0; //Blue
-    
-    LATBbits.LATB8 = 0;
-    LATBbits.LATB9 = 0;
-    LATBbits.LATB14 = 0;
-    LATBbits.LATB15 = 0;
-}
+void Stepper_Setup(void) {
+    //Make B7,B8 and B9 an output
+    TRISBbits.TRISB7 = 0; //M0
+    TRISBbits.TRISB8 = 0; //M1
+    TRISBbits.TRISB9 = 0; //M2
 
-void One_Step(void)
-{
-    _CP0_SET_COUNT(0);
-    // Can add some set and get counts for delays if necessary
+    //    TRISBbits.TRISB15 = 0; //Blue
+    //Set Mode to 1/8 Step
+    LATBbits.LATB7 = 1;
     LATBbits.LATB8 = 1;
     LATBbits.LATB9 = 0;
-    LATBbits.LATB14 = 1;
-    LATBbits.LATB15 = 0;
-    while (_CP0_GET_COUNT() <200000)
-    {}
-    //********************
-    _CP0_SET_COUNT(0);
-    LATBbits.LATB8 = 0;
-    LATBbits.LATB9 = 1;
-    LATBbits.LATB14 = 1;
-    LATBbits.LATB15 = 0;
-     while (_CP0_GET_COUNT() <200000)
-    {}
-    //********************
-    _CP0_SET_COUNT(0);
-    LATBbits.LATB8 = 0;
-    LATBbits.LATB9 = 1;
-    LATBbits.LATB14 = 0;
-    LATBbits.LATB15 = 1;
-     while (_CP0_GET_COUNT() <200000)
-    {}
-    //********************
-    _CP0_SET_COUNT(0);
-    LATBbits.LATB8 = 1;
-    LATBbits.LATB9 = 0;
-    LATBbits.LATB14 = 0;
-    LATBbits.LATB15 = 1;
-    while (_CP0_GET_COUNT() <200000)
-    {}
-    //********************
-}
-void Half_Step(void)
-{
-    _CP0_SET_COUNT(0);
-    // Can add some set and get counts for delays if necessary
-    LATBbits.LATB8 = 1;
-    LATBbits.LATB9 = 0;
-    LATBbits.LATB14 = 1;
-    LATBbits.LATB15 = 0;
-    while (_CP0_GET_COUNT() <200000)
-    {}
-    //********************
-    _CP0_SET_COUNT(0);
-    LATBbits.LATB8 = 0;
-    LATBbits.LATB9 = 1;
-    LATBbits.LATB14 = 1;
-    LATBbits.LATB15 = 0;
-     while (_CP0_GET_COUNT() <200000)
-    {}
-    //********************
-    _CP0_SET_COUNT(0);
-    LATBbits.LATB8 = 0;
-    LATBbits.LATB9 = 1;
-    LATBbits.LATB14 = 0;
-    LATBbits.LATB15 = 1;
-     while (_CP0_GET_COUNT() <200000)
-    {}
-    //********************
-//    _CP0_SET_COUNT(0);
-//    LATBbits.LATB8 = 1;
-//    LATBbits.LATB9 = 0;
-//    LATBbits.LATB14 = 0;
-//    LATBbits.LATB15 = 1;
-//    while (_CP0_GET_COUNT() <200000)
-//    {}
-//    //********************
+
+    //    LATBbits.LATB15 = 0;
 }
 
-void Step(void){
-    int i = 0;
-    while(i < STEPS)
-    {
-        One_Step();
-        i++;
+void Step_60(void) {
+    _CP0_SET_COUNT(0);
+    setDuty(50);
+    while (_CP0_GET_COUNT() < 15000000) {
+
     }
-    Half_Step();
+    setDuty(0);
+
 }
