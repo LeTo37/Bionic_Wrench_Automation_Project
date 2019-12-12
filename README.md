@@ -1,8 +1,8 @@
-# Bionic_Wrench_Automation_Project
-This repository contains the details of my final project for my Masters in Robotics at Northwestern Univeristy. This project entailed the automation of a part of the production process for the Bionic Wrench (Loggerhead Tools) and was supervised by Professor Dan Brown.
+# Part_Placement_Automation_Project
+This repository contains the details of my final project for my Masters in Robotics at Northwestern Univeristy. This project entailed the automation of a part of the production process for a specific Wrench and was supervised by Professor Dan Brown.
 
 ## Overview
-The initial goal of this project was to observe the manufacturing process of the Loggerhead Tools Bionic Wrench and identify a bottleneck in the process that can be addressed by automation. With that goal set out, there were no set requirements on what should be automated and how it should be automated. This allowed for freedom and trust in following the design process to achieve the optimal solution to this problem.
+The initial goal of this project was to observe the manufacturing process of the wrench and identify a bottleneck in the process that can be addressed by automation. With that goal set out, there were no set requirements on what should be automated and how it should be automated. This allowed for freedom and trust in following the design process to achieve the optimal solution to this problem.
 
 After journey mapping the manufacturing process, giving time values for each task as well as automatibility ratings and assessments regarding what would be gained from automation, it was clear to see that the set of tasks involved in placing the wrench jaws in the wrench are both the most automatable and automating them will result in the most gain to the entire process. As such the task was set out to use/design whatever is deemed appropriate to automate this process in a way that is both accurate and fast.
 
@@ -26,7 +26,7 @@ As such, the final approach was to use gravity to place the jaws in the wrench, 
 
 ## Mechanical Design
 The mechanical design involved in this project was by far the most important, most complex and thus the most time consuming aspect of the project. As is the nature of design, it involved a lot of iterations as well as a few changes in approach that ultimately led to the final design. This final set up is shown below.
-<!-- <p align="center"> <script src="https://embed.github.com/view/3d/LeTo37/Bionic_Wrench_Automation_Project/master/Mechanical_Design/Current/3D_prints/Final.stl"></script> </p> -->
+
 [![Final](media/Final.png)](Mechanical_Design/Current/3D_prints/Final.stl)
 
 The design process is discussed further in the [Mechanical Design Directory](/Mechanical_Design).
