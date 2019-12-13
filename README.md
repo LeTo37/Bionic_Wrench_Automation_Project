@@ -6,7 +6,7 @@ The initial goal of this project was to observe the manufacturing process of the
 
 After journey mapping the manufacturing process, giving time values for each task as well as automatibility ratings and assessments regarding what would be gained from automation, it was clear to see that the set of tasks involved in placing the wrench jaws in the wrench are both the most automatable and automating them will result in the most gain to the entire process. As such the task was set out to use/design whatever is deemed appropriate to automate this process in a way that is both accurate and fast.
 
-The result is shown below:
+The result is shown in the video below:
 [![Mario Kart](http://i3.ytimg.com/vi/1hQX_BQMhLg/maxresdefault.jpg)](https://www.youtube-nocookie.com/embed/1hQX_BQMhLg "Mario Kart")
 
 As will be detailed, the mechanical design for this project was primarily done using <a href="https://www.onshape.com/" target="_blank">OnShape</a> CAD software, the construction of the rig was done using various prototyping methods such as 3D printing and Laser Cutting, a PIC32MX795F512H microcontroller was used to control the system and the relevant peripheral circuitry and coding of the microcontroller was done in C. 
